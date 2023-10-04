@@ -1,0 +1,17 @@
+Algorithme SoluSecondDegree
+variables 
+  a,b,c,d: entier
+debut
+  ecrire("ax^2 + bx +c enter the a,b,c")
+  lire(a,b,c)
+  d= b^2 - 4 ac
+  si d = 0 alors
+    ecrire(" x =" , -b/2*a)
+  sinon 
+    si d >0 alors
+         ecrire(" x =" , (-b - sqr(d))/2*a , "or x =" , (-b + sqr(d))/2*a )
+    sinon
+         ecrire("no solution")
+    finsi
+  finsi
+fin
